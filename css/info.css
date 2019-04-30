@@ -1,0 +1,178 @@
+.data-img {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#infocollect {
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.carlicense {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+  margin: 25px;
+  float: left;
+}
+
+img {
+  margin: 0 auto;
+}
+
+#carforecast {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#info {
+  width: 200px;
+  background: rgb(238, 238, 238);
+  float: left;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+#info span {
+  font-weight: bolder;
+}
+
+#carflow {
+  width: 1000px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.anchorBL {
+  display: none;
+}
+
+#rodes {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.rode {
+  width: fit-content;
+  float: left;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rode button {
+  width: 30px;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #30ceff;
+  margin-left: 5px;
+}
+
+#rode1 button,
+#rode2 button,
+#rode3 button {
+  background: #8e9aa7;
+}
+
+#download {
+  width: 550px;
+  margin: 0 auto
+}
+
+.android {
+  width: 150px;
+  height: 300px;
+  overflow: hidden;
+  font-size: 150px;
+  color: lime;
+  float: left;
+  cursor: pointer;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.ios {
+  width: 150px;
+  height: 300px;
+  overflow: hidden;
+  font-size: 150px;
+  color: #8e9aa7;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.ipad {
+  width: 150px;
+  height: 300px;
+  overflow: hidden;
+  font-size: 150px;
+  color: black;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+}
+.forecastinfo {
+  width: fit-content;
+  float: left;
+}
+#forecastselect {
+  width: 200px;
+  float: right;
+  margin-top: -80px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  #download {
+    width: fit-content;
+    height: 200px;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+
+  #download p {
+    font-size: 10px;
+  }
+
+  .android,
+  .ios,
+  .ipad {
+    width: 70px;
+    font-size: 70px;
+    margin-right: 20px;
+  }
+
+  #rodes {
+    width: 350px;
+  }
+
+  #carflow {
+    width: 350px;
+    height: 550px;
+  }
+
+  .forecastinfo {
+    width: 380px;
+  }
+  #forecastselect {
+    float: left;
+    margin: 0;
+  }
+  #carforecast {
+    width: 400px;
+    height: 550px;
+  }
+}

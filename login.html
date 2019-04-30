@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title></title>
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="./img/Parking charge.png">
+</head>
+
+<body>
+    <div class="top_div"></div>
+    <div id="input-form">
+        <div id="cartoon">
+            <div class="tou"></div>
+            <div id="left_hand" class="initial_left_hand"></div>
+            <div id="right_hand" class="initial_right_hand"></div>
+        </div>
+
+        <p style="padding: 30px 0px 10px 0px;position: relative;">
+            <span class="u_logo"></span>
+            <input class="ipt" type="text" placeholder="请输入用户名或邮箱">
+        </p>
+        <p style="position: relative;">
+            <span class="p_logo"></span>
+            <input id="password" class="ipt" type="password" placeholder="请输入密码">
+        </p>
+
+        <div class="actions">
+            <p style="margin: 0px 35px 20px 45px;">
+                <span style="float: left" class="invalid">
+                    <a href="#" style="color:#ccc;">忘记密码?</a>
+                </span>
+                <span style="float: right">
+                    <a href="#" class="invalid" style="color:#ccc;margin-right:10px;">注册</a>
+                    <a href="#" class="invalid login-button">登录</a>
+                    <a href="#" class="login-button" id="guest-button">游客访问</a>
+                </span>
+            </p>
+        </div>
+
+    </div>
+
+    <div style="position: fixed;bottom: 0px;text-align: center;width: 100%;">
+        Copyright ©2019 <span style="margin-left: 10px;color: #000000;">Power By MAT</span>
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+</body>
+
+</html>

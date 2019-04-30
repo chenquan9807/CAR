@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<title>城市道路大脑</title>
+
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+
+	<!-- Google Fonts -->
+
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="revolution/css/settings.css" />
+	<link rel="stylesheet" href="css/rev-slider.css" />
+	<link rel="stylesheet" href="css/font-icons.css" />
+	<link rel="stylesheet" href="css/sliders.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/spacings.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="img/Parking charge.png">
+	<style>
+		@media screen and (max-width: 480px) {
+			#font-size {
+				font-size: 16px;
+			}
+		}
+
+		#admin-page {
+			display: none;
+			width: 270px;
+			height: 81px;
+			background: white;
+			overflow: hidden;
+			padding: 5px 10px 0 10px;
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			z-index: 100;
+			clear: both;
+		}
+
+		#admin-page p {
+			color: black;
+		}
+	</style>
+</head>
+
+<body data-spy="scroll" data-offset="60" data-target=".fs-nav" class="onepage padding-box">
+	<div id="contain">
+		<span class="top-space"></span>
+		<span class="bottom-space"></span>
+		<header class="nav-type-1" id="home">
+			<nav class="navbar navbar-fixed-top">
+				<div class="fs-nav" id="overlay">
+					<nav class="overlay-menu">
+						<ul class="nav local-scroll">
+							<li><a href="#home">欢迎</a></li>
+							<li><a href="#data-support">数据支持</a></li>
+							<li><a href="#hard-support">硬件及图像处理</a></li>
+							<li><a href="#cloud-computing">云计算</a></li>
+							<li><a href="#feature">创新特色</a></li>
+							<li><a href="#client">客户端</a></li>
+							<li><a href="#system-unit">系统组成</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="navigation-overlay">
+					<div class="container-fluid semi-fluid relative clearfix">
+						<div class="logo-container nopadding">
+							<div class="logo-wrap local-scroll">
+								<a href="#home" class="logo" style="color:azure; font-size: 18px;">
+									城市道路大脑
+								</a>
+								&nbsp;&nbsp;&nbsp;
+								<a href="./download.html"
+									style="color:azure; font-size: 18px; cursor: pointer;">
+									<i class="iconfont" style="color:azure; font-size: 18px;">&#xe611;</i>
+									下载客户端
+								</a>
+							</div>
+							<div id="admin-page">
+								<a href="./login.html" id="carForecast"
+									style="color:azure; font-size: 18px; cursor: pointer;">
+									<p><i class="iconfont" style="color:#30ceff">&#xe6da;</i> 车位数预测</p>
+								</a>
+								<a href="./login.html" id="carFlow"
+									style="color:azure; font-size: 18px; cursor: pointer;">
+									<p><i class="iconfont" style="color:#425977">&#xe6da;</i> 道路网流量</p>
+								</a>
+							</div>
+						</div>
+
+						<div id="nav-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div> <!-- end container -->
+				</div>
+			</nav>
+		</header>
+
+		<div class="main-wrapper oh">
+
+			<!-- Revolution Slider -->
+			<section>
+				<div class="rev_slider_wrapper">
+					<div class="rev_slider" id="slider1" data-version="5.0">
+						<ul>
+							<!-- SLIDE 2 -->
+							<li data-transition="parallaxhorizontal" data-slotamount="1" data-masterspeed="2000"
+								data-delay="10000" data-title="Awesome Features">
+
+								<!-- MAIN IMAGE -->
+								<!-- <img src="video/video_placeholder.jpg" alt="" data-bgrepeat="no-repeat"
+									data-bgfit="cover" data-bgparallax="7" class="rev-slidebg"> -->
+								<!-- MAIN IMAGE -->
+								<img src="img/revolution/slide_3.jpg" alt="" data-bgrepeat="no-repeat"
+								data-bgfit="cover" data-bgparallax="7" class="rev-slidebg">
+
+								<!-- BACKGROUND VIDEO LAYER -->
+								<!-- <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
+									data-videowidth="100%" data-videoheight="100%" data-videomp4="video/video.mp4"
+									data-videowebm="video/video.webm" data-videoogv="video/video.ogv"
+									data-videostartat="00:00" data-videoendat="00:16" data-videocontrols="controls"
+									data-videopreload="preload" data-videoloop="loopandnoslidestop" data-forceCover="1"
+									data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false"
+									data-nextslideatend="true"></div> -->
+
+								<!-- OVERLAY LAYER -->
+								<div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0"
+									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+									data-width="full" data-height="full" data-whitespace="nowrap"
+									data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+									data-transform_out="s:1000;e:Power3.easeInOut;" data-start="750"
+									data-basealign="slide" data-responsive_offset="on" data-responsive="off"
+									style="z-index: 3;background-color:rgba(24, 28, 33, 0.45);">
+								</div>
+
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption hero-text alt-font size-70" data-x="center" data-y="center"
+									data-voffset="['-60', '-60', '-60', '-50']"
+									data-fontsize="['120', '100', '70', '50']"
+									data-whitespace="[nowrap, nowrap, nowrap, nowrap]"
+									data-lineheight="['120', '100', '70', '50']" data-transform_idle="o:1;s:500"
+									data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+									data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1000"
+									data-elementdelay="0.01" style="z-index: 4; text-align: center;">
+									<strong>城市道路大脑</strong>
+								</div>
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption medium-text" data-x="center" data-y="center"
+									data-voffset="[25,25,25,18]" data-fontsize="['24', '24', '24', '18']"
+									data-lineheight="['36', '32', '28', '26']"
+									data-whitespace="[nowrap, nowrap, nowrap, normal]"
+									data-width="[none, none, none, 300]" data-transform_idle="o:1;s:500"
+									data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+									data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+									data-start="1200" data-elementdelay="0.01" style="z-index: 4; text-align: center; font-weight: bold">
+									让您无忧停车
+								</div>
+								<div class="tp-caption tp-resizeme" data-x="center" data-y="center"
+									data-voffset="[140, 140, 140, 140]" data-hoffset="0" data-transform_idle="o:1;s:500"
+									data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-start="1400" data-elementdelay="0.01" data-linktoslide="next"
+									style="letter-spacing: 2px; z-index: 99;">
+									<div class="icon-effect-8">
+										<a href="./video/advertise.mp4"
+											class="lightbox-video mfp-iframe play-btn hi-icon"></a></div>
+								</div>
+							</li>
+
+							<!-- SLIDE 3 -->
+							<li data-transition="parallaxhorizontal" data-slotamount="1" data-masterspeed="2000"
+								data-delay="9000" data-title="Great Ideas">
+
+								<!-- MAIN IMAGE -->
+								<img src="img/revolution/slide_2.jpg" alt="" data-bgrepeat="no-repeat"
+									data-bgfit="cover" data-bgparallax="7" class="rev-slidebg">
+
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption hero-text uppercase" data-x="center" data-y="center"
+									data-voffset="['-60', '-60', '-60', '-50']"
+									data-fontsize="['106', '70', '60', '40']"
+									data-lineheight="['106', '70', '60', '40']" data-hoffset="0"
+									data-transform_idle="o:1;s:500"
+									data-transform_in="sX:0.8;sY:0.8;opacity:0;s:500;e:Power4.easeOut;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1000" data-end="3000"
+									data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+									data-endelementdelay="0.03" style="text-align: center; font-weight: bold"><strong>SmartPark</strong>
+								</div>
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption hero-text uppercase" data-x="center" data-y="center"
+									data-voffset="['-60', '-60', '-60', '-50']"
+									data-fontsize="['106', '70', '60', '40']"
+									data-lineheight="['106', '70', '60', '40']" data-hoffset="0"
+									data-transform_idle="o:1;s:500"
+									data-transform_in="sX:0.8;sY:0.8;opacity:0;s:500;e:Power4.easeOut;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="3500" data-end="5500"
+									data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+									data-endelementdelay="0.03" style="text-align: center; font-weight: bold"><strong>倾心服务</strong>
+								</div>
+
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption hero-text uppercase" data-x="center" data-y="center"
+									data-voffset="['-60', '-60', '-60', '-50']"
+									data-fontsize="['106', '70', '60', '40']"
+									data-lineheight="['106', '70', '60', '40']" data-hoffset="0"
+									data-transform_idle="o:1;s:500"
+									data-transform_in="sX:0.8;sY:0.8;opacity:0;s:500;e:Power4.easeOut;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="6000"
+									data-splitin="chars" data-splitout="chars" data-elementdelay="0.05"
+									data-endelementdelay="0.03" style="text-align: center; font-weight: bold"><strong>最好的选择</strong>
+								</div>
+
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption medium-text" data-x="center" data-y="center" data-hoffset="0"
+									data-voffset="[25,25,25,18]" data-fontsize="['24', '24', '22', '20']"
+									data-lineheight="['36', '32', '28', '26']"
+									data-whitespace="[nowrap, nowrap, nowrap, normal]"
+									data-width="[none, none, none, 300]" data-transform_idle="o:1;s:500"
+									data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-start="1200" data-elementdelay="0.01" style="text-align: center; font-weight: bold">贴心的停车管家
+								</div>
+
+								<!-- LAYER NR. 5 -->
+								<div class="tp-caption tp-resizeme" data-x="center" data-y="center"
+									data-voffset="[140, 140, 140, 140]" data-hoffset="0" data-transform_idle="o:1;s:500"
+									data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+									data-transform_out="sX:0.9;sY:0.9;opacity:0;s:500;e:Power3.easeIn;s:500;e:Power3.easeIn;"
+									data-start="1400" data-elementdelay="0.01" data-linktoslide="next"
+									style="letter-spacing: 2px;">
+									<div class="icon-effect-8">
+										<a href="./video/smartpark.mp4"
+											class="lightbox-video mfp-iframe play-btn hi-icon"></a></div>
+								</div>
+							</li>
+						</ul>
+						<div class="local-scroll">
+							<a href="#intro" class="scroll-down">
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Intro -->
+			<section class="section-wrap intro" id="intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
+							<p class="lead-text text-center" id="font-size">
+								<p><strong>意义：</strong></p>
+								我们项目采用以停车场为数据平台，实现智能交通，缓解停车难的问题，同时能为城市交通规划提供宝贵数据。
+								通过我们的产品，用户能够快速搜寻附近停车场，我们根据大数据和预测模型计算出用户到达时的剩余车位，辅助用户做出正确选择。
+								同时，停车场管理端仅需摄像头即可实现不停车收费，对于停车场管理者能大大降低管理成本。
+								<br><br><br>
+								<p><strong>简介：</strong></p>
+								本作品采用大数据、云计算技术、分布式架构技术、交通预测模型等前沿技术，使用循环迭代增量的软件开发模型，
+								打造一款能实现自动导航，寻找停车场，查询车位，智能缴费等功能，同时加入预测模块，能预测用户到达指定停车场时的剩余车位数，
+								辅助用户做出选择的智能停车APP。在给用户带来便利，给停车场优化管理的同时，我们能够采集到汽车的交通起讫点数据。
+								在城市中，汽车的起点以及终点通常是在各个停车场之间，我们可以利用统计学的方法将此数据进行处理，进行OD交通出行量调查。
+								这些交通数据运用传统方法往往比较难以获取，而采用大数据的方法能进行数据可视化处理。
+								<br><br><br>
+								<p><strong>产品组成：</strong></p>
+								该项目由停车场管理端、停车客户端、停车场硬件设备、中央服务器集群组成，所有数据信息通过云平台共享集成至中央服务器。
+							</p>
+						</div> <!-- end col -->
+					</div> <!-- end row -->
+				</div> <!-- end container -->
+			</section> <!-- end intro -->
+
+			<!-- Portfolio -->
+			<section class="section-wrap bg-dark" id="data-support">
+				<div class="container-fluid nopadding">
+					<div class="row heading">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<a href="./data-support.html" style="cursor: pointer;">
+								<h2 class="color-white v-line">
+									数据支持&ensp;<i class="iconfont" style="color:#30ceff">&#xe6da;</i>
+								</h2>
+							</a>
+							<p class="subheading">
+								利用马尔科夫预测模型实现停车位实时预测、
+								<br>
+								利用大数据处理技术实现如交通大数据可视化等大数据处理功能。
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> <!-- end featured works -->
+
+			<!-- Benefits -->
+			<section class="section-wrap" id="hard-support">
+				<div class="container hori-scroll">
+					<div class="row heading mb-20">
+						<div class="col-md-6 col-md-offset-3 text-center" style="cursor: pointer;">
+							<a href="./hard-support.html">
+								<h2 class="v-line">硬件与图像处理&ensp;<i class="iconfont" style="color:#425977">&#xe6da;</i>
+								</h2>
+							</a>
+							<p class="subheading" style="color: black;">
+								Raspberry Pi Compute Module树莓派；
+								<br>
+								我们首创的采用了分布图像识别算法。
+								采用这种算法能够在提高系统的响应速度的同时，识别正确率也将提高。
+								基于边缘的车牌检测减小了响应时间，实时监测。
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> <!-- end benefits -->
+
+			<!-- Portfolio -->
+			<section class="section-wrap bg-dark" id="cloud-computing">
+				<div class="container-fluid nopadding">
+					<div class="row heading">
+						<div class="col-md-6 col-md-offset-3 text-center" style="cursor: pointer;">
+							<a href="./cloud-computing.html">
+								<h2 class="color-white v-line">云计算技术 <i class="iconfont"
+										style="color:#30ceff">&#xe6da;</i></h2>
+							</a>
+							<p class="subheading">
+								项目特点之一便是将数据处理中心，从传统的、分散的各个停车场集中到中央服务器。
+								这样能带来许多显而易见的优点，大量的有停车需求的客户能够了解到停车场的简略信息。
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> <!-- end featured works -->
+
+			<section class="section-wrap" id="feature">
+				<div class="container">
+					<div class="row heading mb-20">
+						<div class="col-md-6 col-md-offset-3 text-center" style="cursor: pointer;">
+							<a href="./feature.html">
+								<h2 class="v-line">创新特色&ensp;<i class="iconfont" style="color:#425977">&#xe6da;</i></h2>
+							</a>
+						</div>
+					</div>
+					<ol>
+						<li>
+							<p class="subheading" style="color: black;">停车位预测</p>
+						</li>
+						<li>
+							<p class="subheading" style="color: black;">不停车电子收费系统</p>
+						</li>
+						<li>
+							<p class="subheading" style="color: black;">系统成本低</p>
+						</li>
+						<li>
+							<p class="subheading" style="color: black;">现有停车场二次开发</p>
+						</li>
+					</ol>
+				</div>
+			</section> <!-- end benefits -->
+
+			<!-- Portfolio -->
+			<section class="section-wrap bg-dark" id="client">
+				<div class="container-fluid nopadding">
+					<div class="row heading">
+						<div class="col-md-6 col-md-offset-3 text-center" style="cursor: pointer;">
+							<a href="./client.html">
+								<h2 class="color-white v-line">客户端&ensp;<i class="iconfont"
+										style="color:#30ceff">&#xe6da;</i>
+								</h2>
+							</a>
+							<p class="subheading">简便操作，贴心引导</p>
+						</div>
+					</div>
+
+					<div class="works-slider">
+						<img src="img/portfolio/1.png" alt="" width="250px">
+						<img src="img/portfolio/2.png" alt="" width="250px">
+						<img src="img/portfolio/3.png" alt="" width="250px">
+						<img src="img/portfolio/4.png" alt="" width="250px">
+					</div> <!-- end slider -->
+
+				</div>
+			</section> <!-- end featured works -->
+
+			<section class="section-wrap benefits" id="system-unit">
+				<div class="container">
+
+					<div class="row heading mb-20">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<h2 class="v-line">系统组成</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-3 benefits-box mt-40">
+							<span>01.</span>
+							<h3>停车客户端</h3>
+							<p>用户打开客户端，能够自动定位到当前位置，寻找附近5km的停车场。用户能够浏览到各停车场位置、剩余车位、收费价格等大致状况
+								，因此用户可以选择停车位相对充足以及距离较近的停车场。
+							</p>
+						</div>
+						<div class="col-md-3 benefits-box mt-40">
+							<span>02.</span>
+							<h3>停车场管理端</h3>
+							<p>该应用能够实现对停车场的常用管理，查询账单记录，查询停车场内的营收状况，办理月付停车会员，进行停车优惠折扣等等。</p>
+						</div>
+						<div class="col-md-3 benefits-box mt-40">
+							<span>03.</span>
+							<h3>中央服务器</h3>
+							<p>中央服务器共包括图像识别服务器与数据集成服务器，采用分布式架构。并且在之后可以根据识别流量进行进一步扩展。</p>
+						</div>
+						<div class="col-md-3 benefits-box mt-40">
+							<span>04.</span>
+							<h3>停车场硬件设备</h3>
+							<p>停车场硬件设备共包括可编程摄像头、Raspberry Pi Compute Module 树莓派微型卡片机以及车牌图像识别粗识别代码和通信设备。
+								摄像头将通过图像识别技术，通过视频数据监测出是否有车辆进入。
+								当有车辆进入停车场时，停车场摄像头利用初级算法能够识别出车牌，然后将图片解析成base-64编码发送到中央服务器。</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end benefits -->
+
+			<!-- Results -->
+			<section class="section-wrap results counters pt-100 pt-mdm-40 bg-dark">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-4 mt-40 text-center">
+							<div class="statistic wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+								<span class="timer" data-from="0" data-to="2896">&nbsp;</span>
+								<h5 class="counter-text">车位数</h5>
+							</div>
+						</div>
+
+						<div class="col-sm-4 mt-40 text-center">
+							<div class="statistic wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+								<span class="timer" data-from="0" data-to="86">&nbsp;</span>
+								<h5 class="counter-text">停车场数</h5>
+							</div>
+						</div>
+
+						<div class="col-sm-4 mt-40 text-center">
+							<div class="statistic last wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+								<span class="timer" data-from="0" data-to="113">&nbsp;</span>
+								<h5 class="counter-text">用户数</h5>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- end results -->
+
+
+			<!-- Contact Details-->
+			<section class="section-wrap contact-details bg-light nopadding">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4 pt-70 pb-130 equal-height">
+							<div class="contact-item">
+								<h5>地址</h5>
+								<address>湖南省 长沙市 长沙理工大学
+								</address>
+							</div> <!-- end address -->
+							<div class="contact-item">
+								<h5>长沙理工大学官网</h5>
+								<a href="http://www.csust.edu.cn/"><span>www.csust.edu.cn/</span></a>
+							</div> <!-- end phone number -->
+						</div> <!-- end col -->
+					</div>
+				</div>
+			</section> <!-- end contact details -->
+
+			<div class="footer-spacer">&nbsp;</div>
+			<!-- Footer -->
+			<footer class="footer bg-dark">
+				<div class="container">
+					<div class="footer-widgets">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<div class="footer-logo local-scroll text-center mb-20">
+									<div class="logo-wrap local-scroll">
+										<a href="#home" class="logo" style="color:azure">
+											智慧停车
+										</a>
+									</div>
+								</div>
+								<div class="footer-socials mt-mdm-10">
+									<div class="social-icons text-center">
+										<a href="#">Wechat</a> -
+										<a href="#">QQ</a> -
+										<a href="#">Mail</a> -
+										<a href="#">Phone</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- end container -->
+
+				<div class="bottom-footer">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-sm-12 copyright text-center">
+								<span>
+									© 2019 Power By MAT
+								</span>
+							</div>
+						</div>
+					</div>
+				</div> <!-- end bottom footer -->
+			</footer> <!-- end footer -->
+			<div id="back-to-top">
+				<a href="#top"><i class="fa fa-angle-up"></i></a>
+			</div>
+		</div> <!-- end main-wrapper -->
+	</div>
+	<!-- jQuery Scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/rev-slider.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+</body>
+</html>
